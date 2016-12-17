@@ -67,6 +67,10 @@ a:hover {
   color: #113c00;
 }
 
+.banner {
+  width: 100%;
+}
+
 .banner-content {
   background-color: #4286f4;
   color: #fff;
@@ -131,12 +135,12 @@ p {
 
 @media only screen and (min-width: 38em) {
 
-  .banner-conent {
+  .banner-content {
     bottom: 0;
-    position: absolute;
+    position: relative;
     max-width: 100%;
     background-color: transparent;
-    background-image: linear-gradient(to top, rgba(66, 134, 244, 1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to top, rgba(66, 134, 244, 1), rgba(66, 134, 244, .1));
   }
 
   .form-section {
